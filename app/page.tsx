@@ -1,9 +1,10 @@
-import Link from "next/link";
+import { Hero } from "@/components";
+import Image from "next/image";
 
 export default function Home() {
     return (
-        <main className="flex justify-center text-2xl">
-            <Link href="./login">Login</Link>
+        <main className="overflow-hidden">
+            <Hero />
         </main>
     );
 }
