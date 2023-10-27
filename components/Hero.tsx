@@ -19,6 +19,7 @@ const Hero = () => {
                 <CustomButton
                     title="Explore Cars"
                     containerStyles="bg-primary-blue text-white rounded-full mt-10"
+                    btnType="button"
                     handleClick={handleScroll}
                 />
             </div>
@@ -30,8 +31,8 @@ const Hero = () => {
                         fill
                         className="object-contain"
                     />
-                    <div className="hero__image-overlay"></div>
                 </div>
+                <div className="hero__image-overlay"></div>
             </div>
         </div>
     );
